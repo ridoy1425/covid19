@@ -7,7 +7,7 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/style.css">
-		<title>Covid-19</title>
+		<title>patient records</title>
 	</head>
 	<body>
 		<div class="database">
