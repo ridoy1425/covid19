@@ -6,9 +6,11 @@
 }
 a{
 	text-decoration: none;
+	padding: 0;
+	margin:0;
 }
 body{
-	background-color: #7b857e;
+	background-color: #f1faee;
 }
 
 /*index page css*/
@@ -24,19 +26,16 @@ body{
 }
 .cover_content .cover_text img{
 	height: 400px;
-	width: 1000px;	
+	width: 1100px;	
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
- .buttn{
+/*common ancor tag*/
+.cmn_btn{
 	margin-top: 20px;
-	padding-bottom: 100px;
-	display: flex;
-	padding-left: 430px;
-
-}
-
- a{
+	margin-bottom: 100px;
+	}
+ .cmn_btn a{
 
 	text-decoration: none;
 	border: 2px solid red;
@@ -48,7 +47,7 @@ body{
 	margin: 10px;
 
 }
- a:hover{
+ .cmn_btn a:hover{
  	text-decoration: none;
 	background-color: #E34937;
 	border: 2px solid #E34937;
@@ -73,7 +72,14 @@ body{
 	margin-bottom: 20px;
 
 }
-
+.syn_btn{
+	display: flex;
+}
+#a_btn
+.syn_btn a{
+	padding: 0;
+	margin:0;
+}
 
 /*resultx page css*/
 .result1_content {
@@ -95,6 +101,7 @@ body{
 }
 
 /*database page css*/
+
 .database .data_text{
 	margin: 30px 0;
 	text-align: center;
